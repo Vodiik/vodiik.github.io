@@ -1,243 +1,246 @@
 <!DOCTYPE html>
 <html>
-  <body>----------------------------
+  <body>
+    ----------------------------<p>
 ACID
 Základní vlastnosti transakce: atomicita, konzistence, nezávislost, trvalost. ACID
-----------------------------
+</p>----------------------------<p>
 Application distribution (distribuce aplikačních funkcí)
 Varianta architektury C/S v níž správa dat probíhá na serveru. Uživatelského rozhraní pracuje na klientu a aplikační funkce jsou distribuovány mezi klienta a server. Nejkomplexnější varianta architektury C/S. (viz Základní komponenty aplikace) Application distribution (distribuce aplikačních funkcí)
-----------------------------
+</p>----------------------------<p>
 Architektura klient server
 Architektura, kdy jednomu SW procesu (klient) je poskytovány zodpovědnost za zpracování určitého úkolu, pro který jsou požadovány specifické služby od jiného SW procesu běžícího na jiném procesoru (server) Architektura klient server
-----------------------------
+</p>----------------------------<p>
 Back-end
 Databázový server a na něm běžící aplikační funkce. Back-end
-----------------------------
+</p>----------------------------<p>
 Báze dat (BD)
 Databáze, tj. vlastní sledované a uložené informace. Báze dat (BD)
-----------------------------
+</p>----------------------------<p>
 Benchmarking (Benchmarks)
 Měření výkonu databázových systémů pomocí soustavy standardizovaných testů. Výsledkem jsou konkrétní informace popisující reálné možnosti systému. Benchmarking (Benchmarks)
-----------------------------
+</p>----------------------------<p>
 Check point
 Fyzický zápis obsahu databázových bufferů do fyzické databáze a záznam checkpoint recordu do fyzického logu. Používá se při transakčním zpracování. Check point
-----------------------------
+</p>----------------------------<p>
 Commit
 Operace signalizující úspěšné provedení transakce. Databáze je v konzistentním stavu a změny mohou být permanentní a viditelné ostatním transakcím. Commit
-----------------------------
+</p>----------------------------<p>
 Brána (gateway)
 Hardwarově softwarový systém sloužící k propojení několika sítí s rozdílnými protokoly (zpravidla pro připojení lokálních sítí PC k střediskovému počítači). Brána (gateway)
-----------------------------
+</p>----------------------------<p>
 Databáze klient/server (C/S)
 Databázový systém, v němž SŘBD a DBA pracují na samostatných počítačích komunikujících prostřednictvím sítě. Databáze klient/server (C/S)
-----------------------------
+</p>----------------------------<p>
 Databázová aplikace (DBA)
 Program, který umožňuje uživatelům přístup k datům. Velkou část tvoří uživatelské rozhraní. Databázová aplikace (DBA)
-----------------------------
+</p>----------------------------<p>
 Databázový server
 Počítač v systému C/S, na němž je provozován SŘBD a zpracovávány dotazy. Databázový server
-----------------------------
+</p>----------------------------<p>
 Databázový slovník
 Databázový slovník (database dictionary) je druh systémové tabulky, ve které jsou uloženy informace o struktuře databáze. Obsahuje zpravidla názvy tabulek, názvy sloupců a jejich datové typy, integritní omezení, uložené procedury apod. Databázový slovník
-----------------------------
+</p>----------------------------<p>
 Databázový stroj
 Část SŘBD ukládající a manipulující s daty. Databázový stroj
-----------------------------
+</p>----------------------------<p>
 Databázový systém (DBS)
 Množina uložených dat spolu s programy, které k nim umožňují přístup.DBS = SŘBD + DBA + BD Databázový systém (DBS)
-----------------------------
+</p>----------------------------<p>
 Data distribution (distribuce dat)
 Varianta architektury C/S v níž jsou aplikační funkce, uživatelské rozhraní i část správy dat provozovány na klientu a na serveru pracuje pouze část správy dat. (viz Základní komponenty aplikace). Data distribution (distribuce dat)
-----------------------------
+</p>----------------------------<p>
 Data separation (oddělení dat)
 Varianta architektury C/S v níž správa dat je prováděna na serveru. Aplikační funkce a uživatelské rozhraní pracuje na klientu. (viz Základní komponenty aplikace). Data separation (oddělení dat)
-----------------------------
+</p>----------------------------<p>
 Datové kódování
 Ochrana citlivých dat před zneužitím. Data jsou uchovávána a přenášena v kódovaném tvaru. Datové kódování
-----------------------------
+</p>----------------------------<p>
 Deadlock
 Situace, kdy se dva nebo více procesů (transakcí) nachází v čekajícím stavu a každý z nich čeká na uvolnění zdrojů (zámků), které využívá jiný čekající proces (transakce) Deadlock
-----------------------------
+</p>----------------------------<p>
 DES (Data Encryption Standard)
 Kódovací standard kombinující substituční kódovací metody s permutačními metodami. DES (Data Encryption Standard)
-----------------------------
+</p>----------------------------<p>
 Discretionary control
 Jeden z možných přístupů k bezpečnosti dat. Je založen na filosofii přístupových práv jednotlivých uživatelů. (Jiný přístup Mandatory Control) Discretionary control
-----------------------------
+</p>----------------------------<p>
 Distribuovaná databáze
 Databáze, která ačkoliv je uložena na několika serverech, uživateli se jeví jako jediná databáze. Distribuovaná databáze
-----------------------------
+</p>----------------------------<p>
 Distribuované transakce
 Databázové transakce rozdělené mezi dvě nebo více databází v distribuovaném systému. Aby mohla být transakce považována za úspěšnou, musí být úspěšně ukončeny všechny její části. Distribuované transakce
-----------------------------
+</p>----------------------------<p>
 Distribuované zpracování
 Metoda sdílení zpracování aplikací mezi několika výpočetními systémy. (Databáze C/S - základní forma distribuovaného zpracování) Distribuované zpracování
-----------------------------
+</p>----------------------------<p>
 Doména
 Množina hodnot či přípustný rozsah určité položky. Doména
-----------------------------
+</p>----------------------------<p>
 Doménová integrita
 SŘBD (relační) zajišťuje, že každá hodnota ve sloupci odpovídá příslušné doméně. Doménová integrita
-----------------------------
+</p>----------------------------<p>
 DS (Decision Support)
 Transakce zpracovávající informace pro podporu managementu. Read-only dotazy čtoucí i celé tabulky. DS (Decision Support)
-----------------------------
+</p>----------------------------<p>
 Dvoufázový COMMIT
 Používá se pro transakce, které mají interakci s několika zdroji dat, z nichž každý má vlastní log (distribuované prostředí). Dvoufázový COMMIT
-----------------------------
+</p>----------------------------<p>
 Dvoufázový uzamykací protokol
 Dvě fáze v transakci - uzamykací a odemykací. Transakce musí před operací s libovolným objektem tento objekt uzamknout. Po uvolnění prvního zámku nesmí transakce umístit žádný další zámek. Dvoufázový uzamykací protokol
-----------------------------
+</p>----------------------------<p>
 Grafické uživatelské rozhraní (GUI - Graphical User Interface)
 Operační systém a prostředí jehož komunikace s uživatelem je založena na grafice a ne na textu. Grafické uživatelské rozhraní (GUI - Graphical User Interface)
-----------------------------
+</p>----------------------------<p>
 Front-end
 Aplikace běžící na klientském systému. Nástroj pro komunikaci uživatele s databází. Front-end
-----------------------------
+</p>----------------------------<p>
 Index
 Metoda používaná pro zrychlení přístupu k datům. Princip indexování spočívá ve vytváření dalšího souboru (objektu), který obsahuje pouze informace o jedné nebo několika položkách tabulky a je setříděn v pořadí, které definuje uživatel. Při hledání záznamu se nejprve prohledá index a ten poskytne SŘBD ukazatel na hledaný záznam v databázi. Index
-----------------------------
+</p>----------------------------<p>
 Integrita databáze
 Obecná teorie ochrany dat v databázi, konkrétně realizovaná HW a SW prostředky. Integrita databáze
-----------------------------
+</p>----------------------------<p>
 Hostitelský počítač
 Centrální výpočetní systém, na němž jsou provozovány všechny uživatelské a DBA. Uživatelé s ním komunikují prostřednictvím terminálů. Hostitelský počítač
-----------------------------
+</p>----------------------------<p>
 Inteligentní terminál
 Terminál s vlastním procesorem. Inteligentní terminál
-----------------------------
+</p>----------------------------<p>
 Interface distribution (distribuce uživatelského rozhraní)
 Varianta architektury C/S v níž správa dat, aplikační funkce i část uživatelského rozhraní pracuje na serveru. Klient provozuje pouze části uživatelského rozhraní. (viz Základní komponenty aplikace) Interface distribution (distribuce uživatelského rozhraní)
-----------------------------
+</p>----------------------------<p>
 Jazyk 3.generace - 3GL
 Univerzální programovací jazyk. Jazyk 3.generace - 3GL
-----------------------------
+</p>----------------------------<p>
 Jazyk 4.generace - 4GL
 Programovací jazyk navržený speciálně pro tvorbu určitého typu aplikací (např. DBA). Jazyk 4.generace - 4GL
-----------------------------
+</p>----------------------------<p>
 Klient
 SW proces požadující služby, většinou prostřednictvím sítě, od jiných SW procesů. Klient
-----------------------------
+</p>----------------------------<p>
 Log (žurnál)
 Soubor se záznamy všech update operací provedených nad databází. Používá se při transakčním zpracování. Log (žurnál)
-----------------------------
+</p>----------------------------<p>
 Lokální replikace
 Replikace v rámci jedné LAN. Odpovědnost za data nese jedno pracoviště, ostatní jsou pasivní uživatelé (jednosměrný přenos dat). Lokální replikace
-----------------------------
+</p>----------------------------<p>
 Lokální síť (Local Area Network - LAN)
 Kombinace HW s SW umožňující, aby dva nebo více počítačů spolu komunikovalo za účelem sdílení zdrojů. Lokální síť (Local Area Network - LAN)
-----------------------------
+</p>----------------------------<p>
 Neinteligentní terminál
 Zařízení skládající se z obrazovky a klávesnice. Neinteligentní terminál
-----------------------------
+</p>----------------------------<p>
 Integrita dat
 Základní princip relačního modelu. Určuje, jak databáze chrání zapsaná data. Je definována množinou pravidel (integritních omezení), které uživatel nesmí porušit. Integrita dat
-----------------------------
+</p>----------------------------<p>
 Interface separation (oddělení uživatelského rozhraní)
 Varianta architektury C/S v níž správa dat a aplikační funkce pracuje na serveru. Klient provádí zpracování uživatelského rozhraní. (viz Základní komponenty aplikace) Interface separation (oddělení uživatelského rozhraní)
-----------------------------
+</p>----------------------------<p>
 Mandatory control
 Jeden z možných přístupů k bezpečnosti dat. Je založen na filosofii klasifikačních úrovní objektů. (Jiný přístup Discretionary Control) Mandatory control
-----------------------------
+</p>----------------------------<p>
 Normalizace
 Metoda návrhu struktury databáze (RMD) snižující duplicitu dat. Normalizace
-----------------------------
+</p>----------------------------<p>
 Paralelní zpracování (Concurency)
 SŘBD provádí více současných transakcí nad jednou databází. Paralelní zpracování (Concurency)
-----------------------------
+</p>----------------------------<p>
 Plain text
 Nekódovaná data. Pomocí kódovacího algoritmu, jehož vstupem je plaintext a kódovací klíč, je vytvářen zakódovaný ciphertext. Plain text
-----------------------------
+</p>----------------------------<p>
 Platforma
 Kombinace HW a SW (v užším slova smyslu HW a OS). Platforma
-----------------------------
+</p>----------------------------<p>
 Položka - sloupec, field
 Základní informační prvek v databázi. položka - sloupec, field
-----------------------------
+</p>----------------------------<p>
 Public Key
 Kódovací standard, v jehož případě jsou kódovací algoritmy i kódovací klíče veřejné. Odpovídající dekódovací klíče musí zůstat tajné. Public Key
-----------------------------
+</p>----------------------------<p>
 ODBC (Open DataBase Connectivity)
 Jednoduché API prostředí umožňující různým front-end aplikacím přístup k datům na různých back-end serverech. ODBC (Open DataBase Connectivity)
-----------------------------
+</p>----------------------------<p>
 OLTP (On Line Transaction Processing)
 Transakce měnící několik záznamů současně. Při transakčním zpracování je snaha minimalizovat dobu otevření transakce. OLTP (On Line Transaction Processing)
-----------------------------
+</p>----------------------------<p>
 Přechod na nižší platformu (downsizing)
 Přenos aplikace z větších systémů (střediskových počítačů) na menší a levnější (obyčejně PC). Přechod na nižší platformu (downsizing)
-----------------------------
+</p>----------------------------<p>
 Přechod na vyšší platformu (upsizing)
 Přenos aplikace z menšího systému na větší při nárůstu požadavků na diskový prostor a výpočetní výkon (obvykle z PC na unix.pracovní stanice). Přechod na vyšší platformu (upsizing)
-----------------------------
+</p>----------------------------<p>
 Query By Example
 Uživatelské rozhraní pro tvorbu dotazů případně pro manipulaci s daty. Query By Example
-----------------------------
+</p>----------------------------<p>
 Redundance dat
 Zdvojení dat v databázi. Redundance dat
-----------------------------
+</p>----------------------------<p>
 Referenční integrita
 Součást integrity dat. Určuje, jak má SŘBD reagovat na pokus zrušit záznam, který má závislé řádky v jiné tabulce. Referenční integrita
-----------------------------
+</p>----------------------------<p>
 Replikace
 Replikace (přenášení, kopírování) primárních dat do lokálních databází vzdálených uživatelů Replikace
-----------------------------
+</p>----------------------------<p>
 Rollback
 Operace signalizující neúspěšné provedení transakce. Databáze je v nekonzistentním stavu a všechny provedené změny musí být vráceny zpět. Rollback
-----------------------------
+</p>----------------------------<p>
 S - lock (Sdílený zámek)
 Zámek umožňující číst obsah položky. Jestliže některá transakce umístí na položku S-lock, je žádost jiné transakce o X-lock na tuto položku odmítnuta a žádost o S-lock povolena. S - lock (Sdílený zámek)
-----------------------------
+</p>----------------------------<p>
 Serializability (Uspořadatelnost)
 Množina transakcí je považována za korektní, jestliže je serializable (uspořadatelná), tj. dává tentýž výsledek jako nějaké sériové provedení těchto transakcí. Serializability (Uspořadatelnost)
-----------------------------
+</p>----------------------------<p>
 Správce databáze (database administrator)
 Pracovník pověřený přidělováním přístupových práv, vytvářením a rušením databází, sledováním obsazení disků a zatížení databáze. Správce databáze (database administrator)
-----------------------------
+</p>----------------------------<p>
 Správce sítě (network administrator)
 Pracovník zodpovědný za údržbu sítě. Správce sítě (network administrator)
-----------------------------
+</p>----------------------------<p>
 SQL (Structured Query Language)
 Jazyk standardní přístup k databázi. Poskytuje prostředky pro definici dat (Data Definition Language) i pro manipulaci s daty (Data Manipulatin Language). SQL (Structured Query Language)
-----------------------------
+</p>----------------------------<p>
 Systém řízení báze dat (SŘBD)
 Program pro shromažďování a udržování dat . Systém řízení báze dat (SŘBD)
-----------------------------
+</p>----------------------------<p>
 TPS (Transaction Per Second)
 Jednotka výkonu DBS. Udává počet transakcí provedených za jednu sekundu. TPS (Transaction Per Second)
-----------------------------
+</p>----------------------------<p>
 Transakce
 Sled operací, které je třeba vykonat, aby v databázi nastala požadovaná změna a databáze zůstala konzistentní. Buď se provede celá, nebo se žádná z operací nerealizuje. (Logická jednotka práce zachovávající konzistenci databáze) Transakce
-----------------------------
+</p>----------------------------<p>
 Transakční zpracování
 Mechanismy zajišťující víceuživatelský přístup k databázi. Zabezpečuje, že po skončení současné práce několika programů bude databáze konzistentní. Transakční zpracování
-----------------------------
+</p>----------------------------<p>
 Trigger
 Speciální druh uložené procedury, která se vyvolává automaticky, kdykoliv dojde k manipulaci s daty (INSERT. UPDATE, DELETE). Pomocí triggerů se implementuje referenční integrita. Trigger
-----------------------------
+</p>----------------------------<p>
 Uložená procedura (Stored Procedure)
 Procedura, která je uložená jako součást databáze a provádí se zpravidla na systému back-end. Používání uložených procedur umožňuje přenést větší část zpracování z klienta na server. Uložená procedura (Stored Procedure)
-----------------------------
+</p>----------------------------<p>
 X - lock (Výhradní zámek)
 Zámek umožňující provádět změny obsahu položky. Jestliže některá transakce umístí na položku X-lock, je žádost jiné transakce o zámek na tuto položku odmítnuta. X - lock (Výhradní zámek)
-----------------------------
+</p>----------------------------<p>
 Vzdálené replikace
 Replikace dat na více místech WAN. Umožňuje jednosměrný přenos dat z primárního datového serveru na replikovaný server. Vzdálené replikace
-----------------------------
+</p>----------------------------<p>
 Základní komponenty aplikace
 Každou aplikaci je možné chápat jako kombinaci tří základních komponent: Uživatelské rozhraní (nejčastěji GUI) - Aplikační funkce - Data a správa dat Základní komponenty aplikace
-----------------------------
+</p>----------------------------<p>
 Zámky (locks)
 Pokud transakce potřebuje přistupovat k nějakému objektu, uzamkne jej a ostatní transakce jej nemohou měnit. Zámky (locks)
-----------------------------
+</p>----------------------------<p>
 Záznam - řádek, record
 Obsahuje informace o určitém objektu. Záznam - řádek, record
-----------------------------
+</p>----------------------------<p>
 Zdvojování disků (disk duplexing)
 Metoda zajišťováni integrity databáze. Aplikace automaticky současně zapisuje data na dva různé disky připojené k témuž řadiči. Při poruše primárního disku se systém automaticky přepne na druhý disk. Zdvojování disků (disk duplexing)
-----------------------------
+</p>----------------------------<p>
 Zrcadlení disků (disk mirroring)
 Metoda zajišťováni integrity databáze. Aplikace automaticky zapisuje data na dva různé disky připojené k různým řadičům. Zrcadlení disků (disk mirroring)
-----------------------------
+</p>----------------------------<p>
 Žurnál
-Viz Log Žurnál</body>
+Viz Log Žurnál
+</p>
+  </body>
 </html>
